@@ -3,9 +3,9 @@
 
 ### Tech Stack : HTML CSS JS
 ### Features need to Implement : 
-###   -- Rating
-###   -- Comments
-###   -- Collabarations with other sites
-###   -- Social Media Links
-###   -- Admin Panel
-###   -- Login/Signup
+#####   -- Rating
+#####   -- Comments
+#####   -- Collabarations with other sites
+#####   -- Social Media Links
+#####   -- Admin Panel
+#####   -- Login/Signup
