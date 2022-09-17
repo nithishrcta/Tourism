@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background-color: white;
+    color: #1f2641;
+}
+
+.container{
+    width: 76%;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5
+{
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+a{
+    color: #1f2641;
+    font-weight: 400;
+}
+
+.nav{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.links ul li a{
+    padding: 0rem 2rem;
+}
+
+.links a:hover{
+    color: red;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head-info h1{
+    font-size: 3.5rem;
+}
+
+.head-info p{
+    font-size: 1.1rem;
+}
+
+.head-img{
+    text-align: center;
+}
+
+.head-img{
+    width: 50%;
+}
+
+.head-img img{
+    width: 80%;
+    margin-left: 2rem;
+}
+
+.info{
+    padding: 4rem 0;
+}
+
+.info-head h3{
+    text-decoration-line: underline;
+    text-decoration-style: "solid";
+    text-decoration-color: rgba(0,114,235,1);
+    text-decoration-thickness: 7px;
+    font-size: 3.2rem;
+}
+
+.info-des{
+    margin: 7rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fefefe;
+    width: 15%;
+    height: 30vh;
+    border-radius: 1rem;
+    background-image: url("Assests/220px-Nadi_Sri_Siva_Subramaniya_Temple.jpg");
+    -webkit-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+}
+
+.list-1{
+    text-align: center;
+    background-color: #fefefe;
+    width: 15%;
+    height: 30vh;
+    border-radius: 1rem;
+    background-size: cover;
+    background-image: url("Assests/photo-1629185752152-fe65698ddee4.jpeg");
+    -webkit-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+}
+
+.list-2{
+    text-align: center;
+    background-color: #fefefe;
+    width: 15%;
+    height: 30vh;
+    border-radius: 1rem;
+    background-size: cover;
+    background-image: url("Assests/Kabini-Tiger-Reserve-Karnataka-Leopard-Portrait-Wildlife-Photography.jpg");
+    -webkit-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+}
+
+.list-3{
+    text-align: center;
+    background-color: #fefefe;
+    width: 15%;
+    height: 30vh;
+    border-radius: 1rem;
+    background-size: cover;
+    background-image: url("Assests/istockphoto-585282788-170667a.jpg");
+    -webkit-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+}   
+
+.list-4{
+    text-align: center;
+    background-color: #fefefe;
+    width: 15%;
+    height: 30vh;
+    border-radius: 1rem;
+    background-size: cover;
+    background-image: url("Assests/beach.jpeg");
+    -webkit-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: 7px 12px 17px -4px rgba(0,0,0,0.75);
+}
+
+.des{
+    padding-top:2rem;
+    height: 6.1rem;
+    border-radius: 1rem;
+    width: 100%;
+    background-color: #1f264183;
+    margin-top: 12.3rem;
+    text-align: center;
+}
+
+.des h3{
+    color: #f3f4f7;
+    font-size: 1.2rem ;
+    font-weight: 600;
+}
+
+.btn
+{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #1f2641;
+    border-radius: 0.3rem;
+}
+
+.btn a{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.foot{
+    padding: 1.5rem 0;
+    background-color: #1f2641;
+}
+
+.info-footer{
+    font-size: 1.2rem;
+    color: white;
+}

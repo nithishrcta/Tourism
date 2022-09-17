@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background-color: white;
+    color: #1f2641;
+}
+
+.container{
+    width: 76%;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5
+{
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+a{
+    color: #1f2641;
+    font-weight: 400;
+}
+
+.nav{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.links ul li a{
+    padding: 0rem 2rem;
+}
+
+.links a:hover{
+    color: red;
+}
+
+
+.header{
+    text-align: center;
+    height: 30vh;
+    background-color: #103783;
+    background:linear-gradient(90deg,#9fccfa,#0974f1)    
+}
+
+.bg-head{
+    padding: 6rem 0 0rem;
+}
+
+.bg-head h1{
+    outline: black 2px;
+    text-shadow: 1px 2px 11px rgba(150, 150, 150, 1);
+    color: #ffff;
+    font-size: 4rem;
+}
+
+
+.list{
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.img img{
+    width: 80%;
+    border-radius: 0.8rem;
+}
+
+.details h1{
+    font-size: 4rem;
+}
+
+.details p{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.btn
+{
+    margin-top: 0.5rem;
+    padding: 0.8rem 0.8rem;
+    background-color: #1f2641;
+    border-radius: 0.3rem;
+}
+
+.btn a{
+    color:white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.place-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}

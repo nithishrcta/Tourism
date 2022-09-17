@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background-color: white;
+    color: #1f2641;
+}
+
+.container{
+    width: 76%;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5
+{
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+a{
+    color: #1f2641;
+    font-weight: 400;
+}
+
+.nav{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.links ul li a{
+    padding: 0rem 2rem;
+}
+
+.links a:hover{
+    color: red;
+}
+
+.form{
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.head-form h1{
+    padding: 3rem 0rem;
+    font-size: 4rem;
+}
+
+form input{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background-color: #1f2641;
+    border-radius: 0.4rem;
+    margin: 0.8rem 2rem;
+    color: white;
+    font-weight: 500;
+}
+
+label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+button{
+    background: #1f2641;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    border-radius: 0.4rem;
+    padding:0.8rem 2rem;
+}
